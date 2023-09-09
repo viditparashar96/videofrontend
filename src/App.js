@@ -6,7 +6,7 @@ import Room from './pages/Room';
 import socketIO from 'socket.io-client';
 
 
-const socket = socketIO.connect('https://videobackend-xgxi.onrender.com/');
+const socket = socketIO.connect('https://videobackend-xgxi.onrender.com');
 
 
 function App() {
